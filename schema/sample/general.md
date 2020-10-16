@@ -11,5 +11,16 @@
 - description: materials class
 - possibleValues: catalyst, buffer, cellLine, RNA, DNA, molecule, peptide, protein
 
+# name (List(nameObject), )
 
-# name (List(object), )
+- description of (non-)iupac names
+
+## nameObject (Object, )
+
+### value (string, )
+
+- description: name of chemical
+
+### iupac (boolean, )
+
+- description: true if name is IUPAC-conform
