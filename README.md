@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Data schema](#data-schema)
+  - [Guidelines](#guidelines)
+  - [Table of Contents](#table-of-contents)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+>>>>>>> ecf6095e9f28e64707622596fde4d6cc26f6540f
 # Data schema 
 This repository contains a description of the data schema using for the cheminfo ELN. 
 It is also the place where changes to the schema are discussed.
