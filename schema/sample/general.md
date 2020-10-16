@@ -1,21 +1,21 @@
-# title (string, )
+# title (`string`, )
 
 - description: user-chosen title for the sample
 
-# description (string, )
+# description (`string`, )
 
 - description: free text HTML for any kind of description
 
-# kind (string, )
+# kind (`string`, )
 
 - description: materials class
 - possibleValues: catalyst, buffer, cellLine, RNA, DNA, molecule, peptide, protein
 
-# name (List(nameObject), )
+# name (`List<nameObject>`, )
 
-- description of (non-)iupac names
+- description of (non-)iupac names as `nameObjects`
 
-## nameObject (Object, )
+## Proto: `nameObject` (Object, )
 
 ### value (string, )
 

@@ -25,7 +25,8 @@ This syntax is readable and still allows us to convert the schema with minimal e
 - The unit that is specified here, should be the SI unit that is appropriate for this datatype, if the quantity is unitless, leave the field empty.
 - The table of contents in this `README` will be generated automatically with a GitHub actions.
 - For each spectrum type, create a new Markdown file.
-
+- If you want to define a prototype object, prefix the heading with Proto
+ 
 ## Table of Contents
 
 <!-- filetree -->
