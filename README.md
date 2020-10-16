@@ -4,7 +4,7 @@
 
 - [Data schema](#data-schema)
   - [Guidelines](#guidelines)
-  - [Table of contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
