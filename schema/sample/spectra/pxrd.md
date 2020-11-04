@@ -1,3 +1,0 @@
-# temperature (float, K)
-
-- description:
