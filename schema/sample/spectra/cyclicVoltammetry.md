@@ -1,0 +1,13 @@
+- cyclicVoltammetry (array<object>):
+  - description (html)
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - jcamp (object):
+    - filename
+  - workingElectrode("gold|platinum|glassy carbon")
+  - misc (object)
+  - procedure (html)
+  - remark (html) 
