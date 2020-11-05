@@ -1,0 +1,18 @@
+- raman (array<object>):
+  - description (html)
+  - experiment (string)
+  - excitationWavelength (number, nm)
+  - substrate (string): Element symbol like Ag 
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - jcamp (object)
+  - peak (array<object>):
+    - assignment (string)
+    - wavelength (number, cm-1): Actually the wavenumber
+    - kind ("s|m|w"): strong, medium, weak
+  - misc (object)
+  - procedure (html)
+  - remark (html)
