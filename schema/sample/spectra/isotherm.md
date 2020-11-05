@@ -1,0 +1,15 @@
+- isotherm:
+  - description (html)
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - jcamp (object):
+    - filename (string)
+  - sampleWeight (number, g)
+  - temperature (number, K)
+  - mode ("adsorption|desorption")
+  - method ("gravimetric|volumetric")
+  - specificSurfaceArea (number, m^2/g)
+  - specificPoreVolume (number, cm^3/g)
