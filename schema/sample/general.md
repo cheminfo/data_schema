@@ -2,7 +2,7 @@
   - kind ("catalyst|buffer|cell line|RNA|DNA|molecule|peptide|protein|material")
   - title (string)
   - description (html)
-  - purity (number): mass fraction - (mass pure product) / (mass impure product)
+  - purity (number): mass fraction purity calculated as (mass pure product) / (mass impure product)
   - name (array<object>)
     - value (string)
     - language (string): [ISO 2 letter code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
@@ -13,4 +13,7 @@
     - coordinates (string)
     - index (array<number>)
   - mf (string): molecular formula
-  - mw (number, u): molecular weight in Daltons
+  - mw (number, u): molecular mass in Daltons
+  - em (number, u): monoisotopic mass in Daltons
+  - keyword (array<{"kind": string, "value": string}>)
+  - meta (object)
