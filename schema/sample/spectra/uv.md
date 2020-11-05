@@ -1,14 +1,15 @@
-- ir (array<object>):
+- uv (array<object>):
   - description (html)
   - experiment (string)
   - conditions
   - solvent
+  - temperature (number, K)
   - instrument (object):
     - model (string)
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
-  - software
+  - software (string)
   - jcamp (object)
   - pdf (object)
   - peak (array<object>):
