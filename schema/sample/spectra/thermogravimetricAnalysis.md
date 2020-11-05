@@ -1,0 +1,20 @@
+- thermogravimetricAnalysis (array<object>):
+  - description (html)
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - jcamp (object):
+    - filename
+  - mass (number, g): initial mass
+  - zone (array<object>): 
+    - from (number)
+    - to (number)
+    - middlePoint (number)
+    - inflectionPoint (number)
+    - weightLoss (number)
+    - weightLossRelative (number)
+  - misc (object)
+  - procedure (html)
+  - remark (html) 
