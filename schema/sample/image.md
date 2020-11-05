@@ -1,0 +1,25 @@
+- image (array<object>):
+  - image (object):
+    - filename (string)
+  - kind (string): for example, sem/tem/petriDish
+  - description (html)
+  - colorCalibrationCard (object):
+  - model (string)
+  - manufacturer (string)
+  - software (string)
+  - serialNumber (string)
+  - illuminant (object):
+    - name (string): [name of standard illuminant](https://en.wikipedia.org/wiki/Standard_illuminant)
+  - annotation (array<object>):
+    - kind (string)
+    - label (string)
+    - options (object)
+    - length (object):
+      - unit (string)
+      - SI (number)
+    - surface (object):
+      - unit (string)
+      - SI (number)
+  - pixelSize (object):
+  - unit (string)
+  - SI (number)
