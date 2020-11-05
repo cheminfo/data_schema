@@ -1,0 +1,7 @@
+- xray (array<object>):
+- cif (object):
+  - filename (string)
+- pdb (object):
+  - filename (string)
+- rscrCode (string): for example, dia
+- temperature (number, K)
