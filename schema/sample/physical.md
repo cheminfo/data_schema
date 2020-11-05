@@ -1,0 +1,15 @@
+- bp (array<{}>): boiling point
+- mp (array<{}>): melting point
+- d (array<{}>): density
+- alpha (array<{}>): polarizability
+- decomposition (array<{}>): decomposition temperature
+- logP (array<{}>):
+- volatility ((array<{}>):
+- fp (array<{}>): flamepoint
+- n (array<{}>): refractive index
+- logS (array<{}>):
+- rrf (array<{}>):
+- kovats (array<{}>):
+- solubility (array<{}>):
+- specificSurfaceArea (array<{}>):
+- specificPoreVolume (array<{}>):
