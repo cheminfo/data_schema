@@ -1,0 +1,45 @@
+- mass (array<object>):
+  - description (html)
+  - experiment (string): For example ms, or ms/ms
+  - ionisation ("ESI|EI|APCI|APPI|MALDI|LDI|CSI")
+  - mode ("positive|negative")
+  - analyzer (string)
+  - matrix (string)
+  - injection ("direct|GC|LC")
+  - column (string)
+  - range
+  - precursor
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - software ̰
+  - jcamp (object):
+    - filename
+  - pdf (object):
+    - filename
+  - xy (object):
+    - filename
+  - xml (object):
+    - filename
+  - cdf (object):
+    - filename
+  - report (object): a html file that contains an analytical report:
+    - filename ̰
+  - peak (array<object>):
+    - assignment (string)
+    - mass (number, m/z)
+    - modification (string)
+    - mf (string)
+    - intensity (%): relative to base peak
+    - ocl (object):
+      - value
+      - coordinates
+  - misc (object)
+  - procedure (html)
+  - remark (html)
+  - accurate (object):
+    - mf (string)
+    - modification (string)
+    - value (string)

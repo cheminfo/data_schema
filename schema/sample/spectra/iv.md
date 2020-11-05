@@ -5,7 +5,8 @@
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
-  - jcamp (object)
+  - jcamp (object):
+    - filename
   - peak (array<object>):
     - assignment (string)
     - wavelength (number, cm-1): Actually the wavenumber

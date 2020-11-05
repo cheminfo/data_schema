@@ -13,7 +13,9 @@
     - coordinates (string)
     - index (array<number>)
   - mf (string): molecular formula
-  - mw (number, u): molecular mass in Daltons
+  - mw (number, u): molecular weight in Daltons
   - em (number, u): monoisotopic mass in Daltons
-  - keyword (array<{"kind": string, "value": string}>)
+  - keyword (array<object>):
+    - kind (string)  
+    - value (string)
   - meta (object)

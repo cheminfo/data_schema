@@ -9,8 +9,10 @@
     - software (string)
     - serialNumber (string)
   - software
-  - jcamp (object)
-  - pdf (object)
+  - jcamp (object):
+    - filename
+  - pdf (object):
+    - filename
   - peak (array<object>):
     - assignment (string)
     - wavelength (number, cm-1): Actually the wavenumber
