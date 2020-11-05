@@ -1,24 +1,17 @@
 - mass (array<object>):
   - description (html)
-  - experiment (string): For example ms, or ms/ms
-  - ionisation ("ESI|EI|APCI|APPI|MALDI|LDI|CSI")
+  - experiment ("gc|hplc|lc|gc/ms|hplc/ms|lc/ms")
+  - analyzer ("ms|ms/ms|uv|fid")
   - mode ("positive|negative")
-  - analyzer (string)
-  - matrix (string)
-  - injection ("direct|GC|LC")
-  - column (string)
-  - range
-  - precursor
+  - method (string)
+  - processing (string)
+  - defaultTrace (string): Name of the default trace to display and use for integration 
   - instrument (object):
     - model (string)
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
   - jcamp (object):
-    - filename
-  - pdf (object):
-    - filename
-  - xy (object):
     - filename
   - xml (object):
     - filename
@@ -28,17 +21,24 @@
     - filename ̰
   - peak (array<object>):
     - assignment (string)
-    - mass (number, m/z)
+    - from (number, s)
+    - to (number, s)
+    - retentionTime (number, s)
     - modification (string)
     - mf (string)
-    - intensity (number, %): relative to base peak
+    - intensity (number)
+    - inflectionPoints (array<object>):
+      - from (number)
+      - to (number)
+    - relativeIntegral (number) 
+    - kovats (number)
+    - mf (number)
+    - ppm (number)
+    - misc (object)
     - ocl (object):
       - value
       - coordinates
+    - remark (html)
   - misc (object)
   - procedure (html)
-  - remark (html)
-  - accurate (object):
-    - mf (string)
-    - modification (string)
-    - value (string)
+  - remark (html) 

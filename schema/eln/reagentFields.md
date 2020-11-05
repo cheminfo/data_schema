@@ -1,0 +1,9 @@
+- reagentFields:
+  - kind
+  - title (string)
+  - purity
+  - concentration ("ng/µL|mg/mL|µM|unit/mL|cells/mL")
+  - mw (protein)
+  - plasmids 
+  - volume ("µL|mL|L")
+  - quantity ("µg|g|kg")

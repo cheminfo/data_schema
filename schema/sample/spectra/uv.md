@@ -9,7 +9,6 @@
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
-  - software (string)
   - jcamp (object)
   - pdf (object)
   - peak (array<object>):
