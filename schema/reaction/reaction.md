@@ -7,4 +7,13 @@
   - remarks (html)
   - title (string)
   - reactionRXN (string): Reaction mol file
-  - conditions 
+  - conditions
+  - keywords (array<object>)
+  - status (array<object>):
+    - code (int): [Explanaition of status codes](https://github.com/cheminfo-js/visualizer-helper/blob/master/eln/reaction/color.js):
+      - 10: started
+      - 20: finished
+      - 30: worked up
+      - 40: purified
+      - 50: closed
+  - data (int): timestamp, milliseconds elapsed since the Unix Epoch
