@@ -1,0 +1,10 @@
+- reaction (object)
+  - code (string)
+  - date (int): timestamp, milliseconds elapsed since the Unix Epoch
+  - procedure (html)
+  - [products](./products)
+  - [reagents](./reagents)
+  - remarks (html)
+  - title (string)
+  - reactionRXN (string): Reaction mol file
+  - conditions 
