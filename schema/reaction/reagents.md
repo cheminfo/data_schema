@@ -1,2 +1,19 @@
 - reagents (array<object>): 
-  - code 
+  - code (string) 
+  - seq (int)
+  - iupac (string): IUPAC name
+  - mf (string): molecular formula 
+  - mw (number, u): molecular mass in Dalton 
+  - purity (number, %): mass purity
+  - density (number)
+  - g (number, g): mass
+  - ml (number, mL): volume 
+  - mmoles (number, mmol): amount of substance
+  - equivalent (number)
+  - purityType (string)
+  - purityValue (int)
+  - rn (string)
+  - ocl (object): 
+    - value 
+    - coordinates 
+    - index (array)
