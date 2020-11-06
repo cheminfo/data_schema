@@ -1,0 +1,20 @@
+- stock (object)
+  - supplier (string)
+  - description (html)
+  - catalogNumber (string)
+  - qty (int)
+  - history (array<object>)
+    - location (string)
+    - status (100|200|300|400|500|600|700|800|900|1000): [Explanation of status codes](https://github.com/cheminfo-js/visualizer-helper/blob/master/eln/StockHelper.js):
+      - 100: Order to confirm
+      - 200: Product to order
+      - 300: Product ordered
+      - 400: Product arrived
+      - 500: Product released
+      - 600: Product to revalidate
+      - 700: Product refused
+      - 800: Product expired
+      - 900: Product lost
+      - 1000: Product empty
+    - date (int): timestamp, milliseconds elapsed since the Unix Epoch
+    - user (string)
