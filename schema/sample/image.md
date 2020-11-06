@@ -21,5 +21,5 @@
       - unit (string)
       - SI (number)
   - pixelSize (object):
-  - unit (string)
-  - SI (number)
+    - unit (string)
+    - SI (number)
