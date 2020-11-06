@@ -1,14 +1,14 @@
-- products (array<object>): 
- - code (string)
- - batch (int)
- - id (int)
- - mf (string): molecular formula 
- - mw (number, u): molecular mass in Daltons
- - purity (number, %): mass purity 
- - g (number, g): mass
-- mmoles (number, mmol): amount of substance
-- equivalent (number)
-- purityType (string)
-- purityValue (int)
-- theoreticalG (number): theoretical maximum mass for 100% conversion
-- theoreticalML (number): theoretical maximum number of 100% conversion
+- products (array<object>):
+  - code (string)
+  - batch (int)
+  - id (int)
+  - mf (string): molecular formula
+  - mw (number, u): molecular mass in Daltons
+  - purity (number, %): mass purity
+  - g (number, g): mass
+  - mmoles (number, mmol): amount of substance
+  - equivalent (number)
+  - purityType (string)
+  - purityValue (int)
+  - theoreticalG (number): theoretical maximum mass for 100% conversion
+  - theoreticalML (number): theoretical maximum number of 100% conversion
