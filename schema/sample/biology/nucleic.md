@@ -1,0 +1,34 @@
+- nucleic (array<object>)
+
+  - seq (array<object>): [Output of parsing a genbank file](https://github.com/cheminfo-js/genbank-parser)
+
+    - sequence (string)
+    - size (number)
+    - accession (string)
+    - definition (string)
+    - source (string)
+    - version (string)
+    - name (string): alias for accession
+    - genbankDivision (string)
+    - keywords (string)
+    - moleculeType ("DNA|ds-DNA|RNA)
+    - date (string): ISO-formatted date
+    - primer (boolean)
+    - circular (boolean)
+    - organism (string)
+    - references (array<object>):
+      - authors (string)
+      - description (string)
+      - journal (string)
+      - title (string)
+    - fivePrime ("alcohol|phosphate|diphosphate|triphosphate")
+    - features (array<object>):
+      - type (string)
+      - strand (int)
+      - start (int)
+      - end (int)
+      - name (string)
+
+  - genbank (object):
+    - filename (string)
+  - pdb (string): Identifier in the PDB database
