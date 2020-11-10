@@ -1,9 +1,1 @@
-- misc (object)
-  - attachment (array<object>):  additional files that are uploaded and not meant to be used by the software
-    - name (string): filename in _attachments
-    - type (string)
-    - description (string): text about the file, entered by the user
-  - category (string)
-  - reference (object):
-     - doi (string)
-     - productId (string) 
+- misc (object): Used for any kind of special attachments
