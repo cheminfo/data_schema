@@ -17,7 +17,7 @@
   - experiment ("1d|hsqc|hmbc|hmqc|jres|cosy|tocsy|hsqtocsy|noesy|roesy|dept|aptjmod")
   - pulse (string): For example "<zg>"
   - concentration (number, mol/L)
-  - reference
+  - reference (string): For example, TMS
   - jcampFID (object):
     - filename (string)
   - jcamp (object):
@@ -28,24 +28,31 @@
     - filename
   - report (object): HTML file with analytical report
     - filename
-  - range (array<object>):
+  - isFID (bool)
+  - isFT (bool)
+  - range (array<object>): Describes the integrated range
     - from (number)
     - to (number)
     - dimension (int): if this range was assigned from a nD n>1, otherwise this attribute should not exist
     - integral (number)
+    - pubIntegral (number): published integral
     - signal (array<object>):
       - nbAtoms (int)
-      - dialD (array)
-      - pubIntegral (number)
-      - pubMultiplicity (number)
-      - pubAssignment ()
+      - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
+      - pubMultiplicity (number): published multiplicity
+      - pubAssignment (string): published assignment
+      - j (array<object>):
+        - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
+        - multiplicity("d,t,q,p,pent,quint,sext,hex,sept,hept,oct,non"): p = pent = quint, sext = hex, sept=hept
+        - coupling (number, Hz)
+        - distance ()
       - peak (array<object>):
-        - x (number)
-        - y (number)
-        - z (number)
-        - width (number)
+        - x (number, ppm): chemical shift
+        - y (number): relative height
+        - width (number, Hz)
       - kind ("solvent|impurity|reference|standard|P1|P2|P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
       - relability (number, %): Between 0 and 100, used for automatic assignment
+      - remark (HTML)
       - statistics (object): Used when predicting for HOSE code database
         - std (number)
         - average (number)
