@@ -5,12 +5,10 @@
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
+  - surface (object): for example, area of solar cell
+     - SI (number): 1
+     - unit (string): cm^2
   - jcamp (object):
     - filename
-  - peak (array<object>):
-    - assignment (string)
-    - wavelength (number, cm-1): Actually the wavenumber
-    - kind ("s,m,w"): strong, medium, weak
-  - misc (object)
   - procedure (html)
   - remark (html)
