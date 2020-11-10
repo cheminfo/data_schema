@@ -1,8 +1,8 @@
 - ir (array<object>):
   - description (html)
-  - experiment (string)
-  - conditions
-  - solvent
+  - experiment (string): For example, XRD
+  - conditions (string): For example, grinded in KBr
+  - solvent (string): For example, if measured in solution between two KBr windows
   - instrument (object):
     - model (string)
     - manufacturer (string)
@@ -16,7 +16,7 @@
   - peak (array<object>):
     - assignment (string)
     - wavelength (number, cm-1): Actually the wavenumber
-    - kind ("s|m|w"): strong, medium, weak
+    - kind ("s,m,w"): strong, medium, weak
   - misc (object)
   - procedure (html)
   - remark (html)
