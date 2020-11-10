@@ -59,6 +59,22 @@ It is also the place where changes to the schema are discussed.
 ```
 
 - For categorical variables, specify the allowed categories instead of the type, e.g. `kind ("a,b,c"): compound class`
+- For many values, `unit` objects of the following form are used:
+
+```
+unitObject:
+  - SI (number): value in SI units
+  - unit (string): default unit that is shown to the user
+```
+
+- For instruments, the metadata is recorded in an object of the following form
+
+```
+instrumentObject:
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+```
+
 - Any new markdown page must be added to the `README.md` file
-
-
