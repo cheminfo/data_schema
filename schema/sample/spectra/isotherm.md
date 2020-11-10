@@ -1,4 +1,4 @@
-- isotherm:
+- isotherm (array<object>):
   - description (html)
   - instrument (object):
     - model (string)
@@ -11,5 +11,9 @@
   - temperature (number, K)
   - mode ("adsorption,desorption")
   - method ("gravimetric,volumetric")
-  - specificSurfaceArea (number, m^2/g)
-  - specificPoreVolume (number, cm^3/g)
+  - specificSurfaceArea (object): 
+    - SI (number)
+    - unit (string): m^2/g
+  - specificPoreVolume (object):
+    - SI (number)
+    - unit (string): cm^3/g
