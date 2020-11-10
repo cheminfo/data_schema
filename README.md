@@ -37,7 +37,7 @@ It is also the place where changes to the schema are discussed.
     - [thermogravimetricAnalysis](./schema/sample/spectra/thermogravimetricAnalysis.md)
     - [uv](./schema/sample/spectra/uv.md)
     - [xps](./schema/sample/spectra/xps.md)
-    - [xps](./schema/sample/spectra/xrd.md)
+    - [xrd](./schema/sample/spectra/xrd.md)
     - [xray](./schema/sample/spectra/xray.md)
 
   - biology
