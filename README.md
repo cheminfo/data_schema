@@ -58,4 +58,7 @@ It is also the place where changes to the schema are discussed.
   - key2 (number, K): This is temperature
 ```
 
+- For categorical variables, specify the allowed categories instead of the type, e.g. `kind ("a,b,c"): compound class`
 - Any new markdown page must be added to the `README.md` file
+
+
