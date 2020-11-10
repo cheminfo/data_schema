@@ -7,21 +7,21 @@ It is also the place where changes to the schema are discussed.
 
 - reaction
 
-  - [reaction](./reaction/reaction.md)
-  - [products](./reaction/products.md)
-  - [reagents](./reaction/reagents.md)
+  - [reaction](./data_schema/reaction/reaction.md)
+  - [products](./data_schema/reaction/products.md)
+  - [reagents](./data_schema/reaction/reagents.md)
 
 - sample
-  - [general](./sample/general.md)
-  - [identifier](./sample/identifier.md)
-  - [image](./sample/image.md)
-  - [video](./sample/video.md)
-  - [stock](./sample/stock.md)
-  - [misc](./sample/misc.md)
+  - [general](./data_schema/sample/general.md)
+  - [identifier](./data_schema/sample/identifier.md)
+  - [image](./data_schema/sample/image.md)
+  - [video](./data_schema/sample/video.md)
+  - [stock](./data_schema/sample/stock.md)
+  - [misc](./data_schema/sample/misc.md)
   - spectra
-    - [chromatogram](./sample/spectra/chromatogram.md)
-    - [cyclicVoltammetry](./sample/spectra/cyclicVoltammetry.md)
-    - [dynamicAdsorptionAnalysis](./sample/spectra/dynamicAdsorptionAnalysis.md)
+    - [chromatogram](./data_schema/sample/spectra/chromatogram.md)
+    - [cyclicVoltammetry](./data_schema/sample/spectra/cyclicVoltammetry.md)
+    - [dynamicAdsorptionAnalysis](./data_schema/sample/spectra/dynamicAdsorptionAnalysis.md)
 
 ## Guidelines
 
