@@ -7,21 +7,21 @@ It is also the place where changes to the schema are discussed.
 
 - reaction
 
-  - [reaction](./data_schema/reaction/reaction.md)
-  - [products](./data_schema/reaction/products.md)
-  - [reagents](./data_schema/reaction/reagents.md)
+  - [reaction](./schema/reaction/reaction.md)
+  - [products](./schema/reaction/products.md)
+  - [reagents](./schema/reaction/reagents.md)
 
 - sample
-  - [general](./data_schema/sample/general.md)
-  - [identifier](./data_schema/sample/identifier.md)
-  - [image](./data_schema/sample/image.md)
-  - [video](./data_schema/sample/video.md)
-  - [stock](./data_schema/sample/stock.md)
-  - [misc](./data_schema/sample/misc.md)
+  - [general](./schema/sample/general.md)
+  - [identifier](./schema/sample/identifier.md)
+  - [image](./schema/sample/image.md)
+  - [video](./schema/sample/video.md)
+  - [stock](./schema/sample/stock.md)
+  - [misc](./schema/sample/misc.md)
   - spectra
-    - [chromatogram](./data_schema/sample/spectra/chromatogram.md)
-    - [cyclicVoltammetry](./data_schema/sample/spectra/cyclicVoltammetry.md)
-    - [dynamicAdsorptionAnalysis](./data_schema/sample/spectra/dynamicAdsorptionAnalysis.md)
+    - [chromatogram](./schema/sample/spectra/chromatogram.md)
+    - [cyclicVoltammetry](./schema/sample/spectra/cyclicVoltammetry.md)
+    - [dynamicAdsorptionAnalysis](./schema/sample/spectra/dynamicAdsorptionAnalysis.md)
 
 ## Guidelines
 
