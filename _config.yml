@@ -1,0 +1,5 @@
+title: cheminfo data schema
+description: Data schema that is used for the cheminfo ELN (c6h6.org/eln.epfl.ch) 
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
