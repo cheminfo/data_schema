@@ -7,7 +7,6 @@
   - remarks (html)
   - title (string)
   - reactionRXN (string): Reaction mol file
-  - conditions
   - keywords (array<object>)
   - status (array<object>):
     - code (int): [Explanaition of status codes](https://github.com/cheminfo-js/visualizer-helper/blob/master/eln/reaction/color.js):
