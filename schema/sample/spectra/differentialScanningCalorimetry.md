@@ -8,11 +8,21 @@
   - jcamp (object):
     - filename
   - zone (array<object>): 
-    - startTime (number, s):
-    - endTime (number, s)
-    - startTemperature (number, K)
-    - endTemperature (number, K)
-    - energy (number, J)
+    - startTime (object):
+      - SI (number)
+      - unit (string)
+    - endTime (object): 
+      - SI (number)
+      - unit (string)
+    - startTemperature (object): 
+      - SI (number)
+      - unit (string)
+    - endTemperature (object): 
+      - SI (number)
+      - unit (string)
+    - energy (object): 
+      - SI (number)
+      - unit (string)
   - misc (object)
   - procedure (html)
   - remark (html) 
