@@ -7,14 +7,28 @@
     - serialNumber (string)
   - jcamp (object):
     - filename
-  - mass (number, g): initial mass
-  - zone (array<object>): 
-    - from (number)
-    - to (number)
-    - middlePoint (number)
-    - inflectionPoint (number)
-    - weightLoss (number)
-    - weightLossRelative (number)
+  - mass (object): initial mass
+    - SI (number)
+    - unit (string): g
+  - zone (array<object>):
+    - from (object):
+      - SI (number)
+      - unit (string)
+    - to (object):
+      - SI (number)
+      - unit (string)
+    - middlePoint (object):
+      - SI (number)
+      - unit (string)
+    - inflectionPoint (object):
+      - SI (number)
+      - unit (string)
+    - weightLoss (object):
+      - SI (number)
+      - unit (string)
+    - weightLossRelative (object):
+      - SI (number)
+      - unit (string)
   - misc (object)
   - procedure (html)
-  - remark (html) 
+  - remark (html)
