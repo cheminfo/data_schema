@@ -7,7 +7,7 @@
     - serialNumber (string)
   - jcamp (object):
     - filename
-  - workingElectrode("gold|platinum|glassy carbon")
+  - workingElectrode("gold,platinum,glassy carbon")
   - misc (object)
   - procedure (html)
   - remark (html) 

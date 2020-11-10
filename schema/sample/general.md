@@ -1,5 +1,5 @@
 - general (object)
-  - kind ("catalyst|buffer|cell line|RNA|DNA|molecule|peptide|protein|material")
+  - kind ("catalyst,buffer,cell line,RNA,DNA,molecule,peptide,protein,material")
   - title (string)
   - description (html)
   - purity (number): mass fraction purity calculated as (mass pure product) / (mass impure product)

@@ -14,7 +14,7 @@
   - nucleus (array<string>): For example, [1H]
   - date (string): Date and time expressed according to ISO 8601
   - dimension (int): nucleus.length()
-  - experiment ("1d|hsqc|hmbc|hmqc|jres|cosy|tocsy|hsqtocsy|noesy|roesy|dept|aptjmod")
+  - experiment ("1d,hsqc,hmbc,hmqc,jres,cosy,tocsy,hsqtocsy,noesy,roesy,dept,aptjmod")
   - pulse (string): For example "<zg>"
   - concentration (number, mol/L)
   - reference (string): For example, TMS
@@ -50,7 +50,7 @@
         - x (number, ppm): chemical shift
         - y (number): relative height
         - width (number, Hz)
-      - kind ("solvent|impurity|reference|standard|P1|P2|P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
+      - kind ("solvent,impurity,reference,standard,P1,P2,P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
       - relability (number, %): Between 0 and 100, used for automatic assignment
       - remark (HTML)
       - statistics (object): Used when predicting for HOSE code database

@@ -11,7 +11,7 @@
     - name (string): alias for accession
     - genbankDivision (string)
     - keywords (string)
-    - moleculeType ("DNA|ds-DNA|RNA)
+    - moleculeType ("DNA,ds-DNA,RNA)
     - date (string): ISO-formatted date
     - primer (boolean)
     - circular (boolean)
@@ -21,7 +21,7 @@
       - description (string)
       - journal (string)
       - title (string)
-    - fivePrime ("alcohol|phosphate|diphosphate|triphosphate")
+    - fivePrime ("alcohol,phosphate,diphosphate,triphosphate")
     - features (array<object>):
       - type (string)
       - strand (int)

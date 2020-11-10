@@ -1,11 +1,11 @@
 - mass (array<object>):
   - description (html)
   - experiment (string): For example ms, or ms/ms
-  - ionisation ("ESI|EI|APCI|APPI|MALDI|LDI|CSI")
-  - mode ("positive|negative")
+  - ionisation ("ESI,EI,APCI,APPI,MALDI,LDI,CSI")
+  - mode ("positive,negative")
   - analyzer (string)
   - matrix (string)
-  - injection ("direct|GC|LC")
+  - injection ("direct,GC,LC")
   - column (string)
   - range
   - precursor

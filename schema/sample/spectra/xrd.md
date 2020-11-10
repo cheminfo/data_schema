@@ -4,7 +4,7 @@
     - manufacturer (string)
     - software (string)
     - serialNumber (string)
-- anode ("CuKa|CuKa2|CuKa1|CuKb1|MoKa|MoKa2|MoKa1|MoKb1|CrKa|CrKa2|CrKa1|CrKb1|FeKa|FeKa2|FeKa1|FeKb1|CoKa|CoKa1|CoKa2|CoKb1|AgKa|AgKa1|AgKa2|AgKb1")
+- anode ("CuKa,CuKa2,CuKa1,CuKb1,MoKa,MoKa2,MoKa1,MoKb1,CrKa,CrKa2,CrKa1,CrKb1,FeKa,FeKa2,FeKa1,FeKb1,CoKa,CoKa1,CoKa2,CoKb1,AgKa,AgKa1,AgKa2,AgKb1")
 - temperature (number, K)
 - relativeHumidity (number, %)
 - environment (string): For example, in vacuo, N2

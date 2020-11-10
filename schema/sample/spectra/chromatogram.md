@@ -1,8 +1,8 @@
 - mass (array<object>):
   - description (html)
-  - experiment ("gc|hplc|lc|gc/ms|hplc/ms|lc/ms")
-  - analyzer ("ms|ms/ms|uv|fid")
-  - mode ("positive|negative")
+  - experiment ("gc,hplc,lc,gc/ms,hplc/ms,lc/ms")
+  - analyzer ("ms,ms/ms,uv,fid")
+  - mode ("positive,negative")
   - method (string)
   - processing (string)
   - defaultTrace (string): Name of the default trace to display and use for integration 
