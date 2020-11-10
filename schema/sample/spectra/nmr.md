@@ -1,0 +1,53 @@
+- nmr (array<object>):
+  - description (html)
+  - solvent (string)
+  - temperature (number, K)
+  - instrument (object):
+    - model (string)
+    - manufacturer (string)
+    - software (string)
+    - serialNumber (string)
+  - frequency (number, MHz)
+  - spinningFrequency (number, kHz)
+  - environment (string): For example, CO2
+  - probe (string)
+  - nucleus (array<string>): For example, [1H]
+  - date (string): Date and time expressed according to ISO 8601
+  - dimension (int): nucleus.length()
+  - experiment ("1d|hsqc|hmbc|hmqc|jres|cosy|tocsy|hsqtocsy|noesy|roesy|dept|aptjmod")
+  - pulse (string): For example "<zg>"
+  - concentration (number, mol/L)
+  - reference
+  - jcampFID (object):
+    - filename (string)
+  - jcamp (object):
+    - filename (string)
+  - pdf (object):
+    - filename (string)
+  - zip (object):
+    - filename
+  - report (object): HTML file with analytical report
+    - filename
+  - range (array<object>):
+    - from (number)
+    - to (number)
+    - dimension (int): if this range was assigned from a nD n>1, otherwise this attribute should not exist
+    - integral (number)
+    - signal (array<object>):
+      - nbAtoms (int)
+      - dialD (array)
+      - pubIntegral (number)
+      - pubMultiplicity (number)
+      - pubAssignment ()
+      - peak (array<object>):
+        - x (number)
+        - y (number)
+        - z (number)
+        - width (number)
+      - kind ("solvent|impurity|reference|standard|P1|P2|P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
+      - relability (number, %): Between 0 and 100, used for automatic assignment
+      - statistics (object): Used when predicting for HOSE code database
+        - std (number)
+        - average (number)
+        - min (number)
+        - max (number)
