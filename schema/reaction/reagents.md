@@ -1,18 +1,16 @@
 - reagents (array<object>): 
-  - code (string) 
+  - code (string): code from internal or external database 
   - seq (int)
   - iupac (string): IUPAC name
   - mf (string): molecular formula 
   - mw (number, u): molecular mass in Dalton 
-  - purity (number, %): mass purity
+  - purity (string): mass purity or concentration. This is could either be the mass purity as specified by the supplier in % or the concentration mol/L
   - density (number)
   - g (number, g): mass
   - ml (number, mL): volume 
   - mmoles (number, mmol): amount of substance
   - equivalent (number)
-  - purityType (string)
-  - purityValue (int)
-  - rn (string)
+  - rn (string): CAS number
   - ocl (object): 
     - value 
     - coordinates 
