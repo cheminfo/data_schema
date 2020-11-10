@@ -17,8 +17,10 @@ It is also the place where changes to the schema are discussed.
   - [identifier](./schema/sample/identifier.md)
   - [image](./schema/sample/image.md)
   - [misc](./schema/sample/misc.md)
+  - [physical](./schema/sample/physical.md)
   - [stock](./schema/sample/stock.md)
   - [video](./schema/sample/video.md)
+
   - spectra
 
     - [chromatogram](./schema/sample/spectra/chromatogram.md)
