@@ -5,10 +5,23 @@ It is also the place where changes to the schema are discussed.
 
 ## Table of contents
 
-- [reaction](./reaction)
-  - [reaction](./reaction.md)
-  - [products](./products.md)
-  - [reagents](./reagents.md)
+- reaction
+
+  - [reaction](./reaction/reaction.md)
+  - [products](./reaction/products.md)
+  - [reagents](./reaction/reagents.md)
+
+- sample
+  - [general](./sample/general.md)
+  - [identifier](./sample/identifier.md)
+  - [image](./sample/image.md)
+  - [video](./sample/video.md)
+  - [stock](./sample/stock.md)
+  - [misc](./sample/misc.md)
+  - spectra
+    - [chromatogram](./sample/spectra/chromatogram.md)
+    - [cyclicVoltammetry](./sample/spectra/cyclicVoltammetry.md)
+    - [dynamicAdsorptionAnalysis](./sample/spectra/dynamicAdsorptionAnalysis.md)
 
 ## Guidelines
 
