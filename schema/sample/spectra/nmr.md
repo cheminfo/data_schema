@@ -58,3 +58,19 @@
         - average (number)
         - min (number)
         - max (number)
+  - zone (array<object>): used for 2D NMR
+    - integral (number)
+    - x (object):
+      - from (number)
+      - to (number)
+    - y (object):
+      - from (number)
+      - to (number)
+    - signal (array<object>):
+      - peak (array<object>):
+      - x (object):
+        - delta (number)
+        - diaID (array)
+      - y (object)
+        - delta (number)
+        - diaID (array)
