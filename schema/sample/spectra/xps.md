@@ -1,12 +1,12 @@
 - xps (array<object>): x-ray photoelectron spectroscopy
+  - experiment (string)
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
+    - software (string)
   - jcamp (object):
     - filename
-  - experiment (string)
   - peak (array<object>):
     - be (number, eV): binding energy in eV
     - fwhm (number, eV)

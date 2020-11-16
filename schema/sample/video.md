@@ -1,11 +1,11 @@
 - video (array<object>):
-  - video (object):
-    - filename (string)
-  - kind (string): for example, sem, tem, petriDish
-  - description (html)
   - annotation (array<object>):
     - kind (string)
     - label (string)
+  - description (html)
+  - kind (string): for example, sem, tem, petriDish
   - pixelSize (object):
-    - unit (string)
     - SI (number)
+    - unit (string)
+  - video (object):
+    - filename (string)

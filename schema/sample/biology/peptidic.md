@@ -2,10 +2,10 @@
 
 - seq (array<object>):
 
-  - sequence (string)
-  - name (string): alias for accession
   - moleculeType (string)
+  - name (string): alias for accession
   - proteinogenicAminoAcids (boolean)
+  - sequence (string)
 
 - fasta (object):
 

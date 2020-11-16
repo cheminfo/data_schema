@@ -1,71 +1,65 @@
 - nmr (array<object>):
-  - description (html)
-  - solvent (string)
-  - temperature (number, K)
-  - instrument (object):
-    - model (string)
-    - manufacturer (string)
-    - software (string)
-    - serialNumber (string)
-  - frequency (number, MHz)
-  - spinningFrequency (number, kHz)
-  - environment (string): For example, CO2
-  - probe (string)
-  - nucleus (array<string>): For example, [1H]
-  - date (string): Date and time expressed according to ISO 8601
-  - dimension (int): nucleus.length()
-  - experiment ("1d,hsqc,hmbc,hmqc,jres,cosy,tocsy,hsqtocsy,noesy,roesy,dept,aptjmod")
-  - pulse (string): For example "<zg>"
   - concentration (number, mol/L)
-  - reference (string): For example, TMS
-  - jcampFID (object):
-    - filename (string)
-  - jcamp (object):
-    - filename (string)
-  - pdf (object):
-    - filename (string)
-  - zip (object):
-    - filename
-  - report (object): HTML file with analytical report
-    - filename
+  - date (string): Date and time expressed according to ISO 8601
+  - description (html)
+  - dimension (int): nucleus.length()
+  - environment (string): For example, CO2
+  - experiment ("1d,hsqc,hmbc,hmqc,jres,cosy,tocsy,hsqtocsy,noesy,roesy,dept,aptjmod")
+  - frequency (number, MHz)
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
   - isFID (bool)
   - isFT (bool)
+  - jcamp (object):
+    - filename (string)
+  - jcampFID (object):
+    - filename (string)
+  - nucleus (array<string>): For example, [1H]
+  - pdf (object):
+    - filename (string)
+  - probe (string)
+  - pulse (string): For example "<zg>"
   - range (array<object>): Describes the integrated range
-    - from (number)
-    - to (number)
     - dimension (int): if this range was assigned from a nD n>1, otherwise this attribute should not exist
+    - from (number)
     - integral (number)
     - pubIntegral (number): published integral
     - signal (array<object>):
-      - nbAtoms (int)
       - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
-      - pubMultiplicity (number): published multiplicity
-      - pubAssignment (string): published assignment
       - j (array<object>):
-        - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
-        - multiplicity("d,t,q,p,pent,quint,sext,hex,sept,hept,oct,non"): p = pent = quint, sext = hex, sept=hept
         - coupling (number, Hz)
+        - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
         - distance ()
+        - multiplicity("d,t,q,p,pent,quint,sext,hex,sept,hept,oct,non"): p = pent = quint, sext = hex, sept=hept
+      - kind ("solvent,impurity,reference,standard,P1,P2,P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
+      - nbAtoms (int)
       - peak (array<object>):
+        - width (number, Hz)
         - x (number, ppm): chemical shift
         - y (number): relative height
-        - width (number, Hz)
-      - kind ("solvent,impurity,reference,standard,P1,P2,P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
+      - pubAssignment (string): published assignment
+      - pubMultiplicity (number): published multiplicity
       - relability (number, %): Between 0 and 100, used for automatic assignment
       - remark (HTML)
       - statistics (object): Used when predicting for HOSE code database
-        - std (number)
         - average (number)
-        - min (number)
         - max (number)
+        - min (number)
+        - std (number)
+    - to (number)
+  - reference (string): For example, TMS
+  - report (object): HTML file with analytical report
+    - filename
+  - solvent (string)
+  - spinningFrequency (number, kHz)
+  - temperature (number, K)
+  - zip (object):
+    - filename
   - zone (array<object>): used for 2D NMR
     - integral (number)
-    - x (object):
-      - from (number)
-      - to (number)
-    - y (object):
-      - from (number)
-      - to (number)
     - signal (array<object>):
       - peak (array<object>):
       - x (object):
@@ -74,3 +68,9 @@
       - y (object)
         - delta (number)
         - diaID (array)
+    - x (object):
+      - from (number)
+      - to (number)
+    - y (object):
+      - from (number)
+      - to (number)

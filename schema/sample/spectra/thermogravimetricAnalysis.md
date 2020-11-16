@@ -1,26 +1,29 @@
 - thermogravimetricAnalysis (array<object>):
   - description (html)
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
+    - software (string)
   - jcamp (object):
     - filename
   - mass (object): initial mass
     - SI (number)
     - unit (string): g
+  - misc (object)
+  - procedure (html)
+  - remark (html)
   - zone (array<object>):
     - from (object):
       - SI (number)
       - unit (string)
-    - to (object):
+    - inflectionPoint (object):
       - SI (number)
       - unit (string)
     - middlePoint (object):
       - SI (number)
       - unit (string)
-    - inflectionPoint (object):
+    - to (object):
       - SI (number)
       - unit (string)
     - weightLoss (object):
@@ -29,6 +32,3 @@
     - weightLossRelative (object):
       - SI (number)
       - unit (string)
-  - misc (object)
-  - procedure (html)
-  - remark (html)

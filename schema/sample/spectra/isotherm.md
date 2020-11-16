@@ -1,19 +1,19 @@
 - isotherm (array<object>):
   - description (html)
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
+    - software (string)
   - jcamp (object):
     - filename (string)
-  - sampleWeight (number, g)
-  - temperature (number, K)
-  - mode ("adsorption,desorption")
   - method ("gravimetric,volumetric")
-  - specificSurfaceArea (object): 
-    - SI (number)
-    - unit (string): m^2/g
+  - mode ("adsorption,desorption")
+  - sampleWeight (number, g)
   - specificPoreVolume (object):
     - SI (number)
     - unit (string): cm^3/g
+  - specificSurfaceArea (object): 
+    - SI (number)
+    - unit (string): m^2/g
+  - temperature (number, K)

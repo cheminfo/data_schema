@@ -1,28 +1,28 @@
 - differentialScanningCalorimetry (array<object>):
   - description (html)
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
+    - software (string)
   - jcamp (object):
     - filename
+  - misc (object)
+  - procedure (html)
+  - remark (html) 
   - zone (array<object>): 
-    - startTime (object):
+    - endTemperature (object): 
       - SI (number)
       - unit (string)
     - endTime (object): 
       - SI (number)
       - unit (string)
-    - startTemperature (object): 
-      - SI (number)
-      - unit (string)
-    - endTemperature (object): 
-      - SI (number)
-      - unit (string)
     - energy (object): 
       - SI (number)
       - unit (string)
-  - misc (object)
-  - procedure (html)
-  - remark (html) 
+    - startTemperature (object): 
+      - SI (number)
+      - unit (string)
+    - startTime (object):
+      - SI (number)
+      - unit (string)

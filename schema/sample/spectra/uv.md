@@ -1,20 +1,20 @@
 - uv (array<object>):
+  - conditions
   - description (html)
   - experiment (string)
-  - conditions
-  - solvent
-  - temperature (number, K)
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
+    - software (string)
   - jcamp (object)
+  - misc (object)
   - pdf (object)
   - peak (array<object>):
     - assignment (string)
-    - wavelength (number, cm-1): Actually the wavenumber
     - kind ("s,m,w"): strong, medium, weak
-  - misc (object)
+    - wavelength (number, cm-1): Actually the wavenumber
   - procedure (html)
   - remark (html)
+  - solvent
+  - temperature (number, K)

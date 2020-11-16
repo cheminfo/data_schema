@@ -1,12 +1,12 @@
+- anode ("CuKa,CuKa2,CuKa1,CuKb1,MoKa,MoKa2,MoKa1,MoKb1,CrKa,CrKa2,CrKa1,CrKb1,FeKa,FeKa2,FeKa1,FeKb1,CoKa,CoKa1,CoKa2,CoKb1,AgKa,AgKa1,AgKa2,AgKb1")
+- environment (string): For example, in vacuo, N2
+- relativeHumidity (number, %)
+- remarks (html)
+- sampleHolder (string): For example, capillary
+- temperature (number, K)
 - xrd (array<object>): Powder x-ray diffraction:
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
-- anode ("CuKa,CuKa2,CuKa1,CuKb1,MoKa,MoKa2,MoKa1,MoKb1,CrKa,CrKa2,CrKa1,CrKb1,FeKa,FeKa2,FeKa1,FeKb1,CoKa,CoKa1,CoKa2,CoKb1,AgKa,AgKa1,AgKa2,AgKb1")
-- temperature (number, K)
-- relativeHumidity (number, %)
-- environment (string): For example, in vacuo, N2
-- sampleHolder (string): For example, capillary
-- remarks (html)
+    - software (string)

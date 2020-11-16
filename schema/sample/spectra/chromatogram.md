@@ -1,44 +1,44 @@
 - mass (array<object>):
-  - description (html)
-  - experiment ("gc,hplc,lc,gc/ms,hplc/ms,lc/ms")
   - analyzer ("ms,ms/ms,uv,fid")
-  - mode ("positive,negative")
-  - method (string)
-  - processing (string)
-  - defaultTrace (string): Name of the default trace to display and use for integration 
-  - instrument (object):
-    - model (string)
-    - manufacturer (string)
-    - software (string)
-    - serialNumber (string)
-  - jcamp (object):
-    - filename
-  - xml (object):
-    - filename
   - cdf (object):
     - filename
-  - report (object): a html file that contains an analytical report:
-    - filename ̰
+  - defaultTrace (string): Name of the default trace to display and use for integration 
+  - description (html)
+  - experiment ("gc,hplc,lc,gc/ms,hplc/ms,lc/ms")
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - jcamp (object):
+    - filename
+  - method (string)
+  - misc (object)
+  - mode ("positive,negative")
   - peak (array<object>):
     - assignment (string)
     - from (number, s)
-    - to (number, s)
-    - retentionTime (number, s)
-    - modification (string)
-    - mf (string)
-    - intensity (number)
     - inflectionPoints (array<object>):
       - from (number)
       - to (number)
-    - relativeIntegral (number) 
+    - intensity (number)
     - kovats (number)
     - mf (number)
-    - ppm (number)
+    - mf (string)
     - misc (object)
+    - modification (string)
     - ocl (object):
-      - value
       - coordinates
+      - value
+    - ppm (number)
+    - relativeIntegral (number) 
     - remark (html)
-  - misc (object)
+    - retentionTime (number, s)
+    - to (number, s)
   - procedure (html)
+  - processing (string)
   - remark (html) 
+  - report (object): a html file that contains an analytical report:
+    - filename ̰
+  - xml (object):
+    - filename

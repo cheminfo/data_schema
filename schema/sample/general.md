@@ -1,21 +1,21 @@
 - general (object)
-  - kind ("catalyst,buffer,cell line,RNA,DNA,molecule,peptide,protein,material")
-  - title (string)
   - description (html)
-  - purity (number): mass fraction purity calculated as (mass pure product) / (mass impure product)
-  - name (array<object>)
-    - value (string)
-    - language (string): [ISO 2 letter code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-    - iupac (boolean): flag to determine if [IUPAC name](https://www.acdlabs.com/iupac/nomenclature/)
-  - molfile (string): [chemical/x-mdl-molfile](https://en.wikipedia.org/wiki/Chemical_table_file#Molfile)
-  - ocl (object): [OpenChemLib object](https://github.com/Actelion/openchemlib/issues/52)
-    - value (string)
-    - coordinates (string)
-    - index (array<number>)
-  - mf (string): molecular formula
-  - mw (number, u): molecular weight in Daltons
   - em (number, u): monoisotopic mass in Daltons
   - keyword (array<object>):
     - kind (string)  
     - value (string)
+  - kind ("catalyst,buffer,cell line,RNA,DNA,molecule,peptide,protein,material")
   - meta (object)
+  - mf (string): molecular formula
+  - molfile (string): [chemical/x-mdl-molfile](https://en.wikipedia.org/wiki/Chemical_table_file#Molfile)
+  - mw (number, u): molecular weight in Daltons
+  - name (array<object>)
+    - iupac (boolean): flag to determine if [IUPAC name](https://www.acdlabs.com/iupac/nomenclature/)
+    - language (string): [ISO 2 letter code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+    - value (string)
+  - ocl (object): [OpenChemLib object](https://github.com/Actelion/openchemlib/issues/52)
+    - coordinates (string)
+    - index (array<number>)
+    - value (string)
+  - purity (number): mass fraction purity calculated as (mass pure product) / (mass impure product)
+  - title (string)

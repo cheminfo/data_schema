@@ -1,13 +1,13 @@
 - elementalAnalysis
-  - instrument (object):
-    - model (string)
-    - manufacturer (string)
-    - software (string)
-    - serialNumber (string)
-  - n (number)
   - c (number)
-  - s (number)
   - h (number)
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - n (number)
   - o (number)
   - pdf (object)
     - filename
+  - s (number)

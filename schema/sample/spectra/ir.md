@@ -1,22 +1,22 @@
 - ir (array<object>):
+  - conditions (string): For example, grinded in KBr
   - description (html)
   - experiment (string): For example, XRD
-  - conditions (string): For example, grinded in KBr
-  - solvent (string): For example, if measured in solution between two KBr windows
   - instrument (object):
-    - model (string)
     - manufacturer (string)
-    - software (string)
+    - model (string)
     - serialNumber (string)
-  - software
+    - software (string)
   - jcamp (object):
     - filename
+  - misc (object)
   - pdf (object):
     - filename
   - peak (array<object>):
     - assignment (string)
-    - wavelength (number, cm-1): Actually the wavenumber
     - kind ("s,m,w"): strong, medium, weak
-  - misc (object)
+    - wavelength (number, cm-1): Actually the wavenumber
   - procedure (html)
   - remark (html)
+  - software
+  - solvent (string): For example, if measured in solution between two KBr windows
