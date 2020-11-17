@@ -10,10 +10,12 @@
   - method ("gravimetric,volumetric")
   - mode ("adsorption,desorption")
   - sampleWeight (number, g)
+  - temperature (number, K)
+  - gas (array<string>): possible values: "CO2,CH4,H2O,H2,N2,Xe,He"
   - specificPoreVolume (object):
     - SI (number)
     - unit (string): cm^3/g
-  - specificSurfaceArea (object): 
+  - specificSurfaceArea (object):
     - SI (number)
     - unit (string): m^2/g
   - temperature (number, K)
