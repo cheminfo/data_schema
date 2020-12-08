@@ -1,0 +1,13 @@
+- flowCytometry (array<object>):
+  - description (html)
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - fcs (object):
+    - filename
+  - misc (object)
+  - procedure (html)
+  - remark (html) 
+  - parameters(array<object>)
