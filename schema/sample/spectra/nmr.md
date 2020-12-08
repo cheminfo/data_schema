@@ -40,8 +40,10 @@
         - width (number, Hz)
         - x (number, ppm): chemical shift
         - y (number): relative height
-      - pubAssignment (string): published assignment
-      - pubMultiplicity (number): published multiplicity
+      - assignment (string)
+      - multiplicity (string)
+      - pubAssignment (string): published assignment (if different from assignment)
+      - pubMultiplicity (string): published multiplicity (if different from multiplicity)
       - relability (number, %): Between 0 and 100, used for automatic assignment
       - remark (HTML)
       - statistics (object): Used when predicting for HOSE code database
