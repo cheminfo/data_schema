@@ -42,6 +42,7 @@
         - y (number): relative height
       - assignment (string)
       - multiplicity (string)
+      - delta (number): chemical shift in ppm
       - pubAssignment (string): published assignment (if different from assignment)
       - pubMultiplicity (string): published multiplicity (if different from multiplicity)
       - relability (number, %): Between 0 and 100, used for automatic assignment
