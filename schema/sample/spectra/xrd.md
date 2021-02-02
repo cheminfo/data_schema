@@ -12,7 +12,7 @@
   - remarks (html)
   - sampleHolder (string): For example, capillary
   - temperature (number, K)
-  - zone (array<object>): Used to store the results from peak picking
+  - peak (array<object>): Used to store the results from peak picking
     - angle (object): center of the reflex
       - SI (number)
       - unit (string): typically degree, will depend on the anode
