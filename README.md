@@ -18,6 +18,7 @@ It is also the place where changes to the schema are discussed.
   - [image](./schema/sample/image.md)
   - [misc](./schema/sample/misc.md)
   - [physical](./schema/sample/physical.md)
+  - [safety](./schema/sample/safety.md)
   - [stock](./schema/sample/stock.md)
   - [video](./schema/sample/video.md)
 
@@ -26,6 +27,7 @@ It is also the place where changes to the schema are discussed.
     - [chromatogram](./schema/sample/spectra/chromatogram.md)
     - [cyclicVoltammetry](./schema/sample/spectra/cyclicVoltammetry.md)
     - [dynamicAdsorptionAnalysis](./schema/sample/spectra/dynamicAdsorptionAnalysis.md)
+    - [differentialCentrifugalSedimentation](./schema/sample/spectra/differentialCentrifugalSedimentation.md)
     - [differentialScanningCalorimetry](./schema/sample/spectra/differentialScanningCalorimetry.md)
     - [elementalAnalysis](./schema/sample/spectra/elementalAnalysis.md)
     - [ir](./schema/sample/spectra/ir.md)
