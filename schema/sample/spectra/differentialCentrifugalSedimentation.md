@@ -8,4 +8,4 @@
   - jcamp (object):
     - filename
   - misc (object)
-  - remark (html)
+  - remarks (html)

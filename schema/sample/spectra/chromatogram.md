@@ -2,7 +2,7 @@
   - analyzer ("ms,ms/ms,uv,fid")
   - cdf (object):
     - filename
-  - defaultTrace (string): Name of the default trace to display and use for integration 
+  - defaultTrace (string): Name of the default trace to display and use for integration
   - description (html)
   - experiment ("gc,hplc,lc,gc/ms,hplc/ms,lc/ms")
   - instrument (object):
@@ -31,13 +31,13 @@
       - coordinates
       - value
     - ppm (number)
-    - relativeIntegral (number) 
-    - remark (html)
+    - relativeIntegral (number)
+    - remarks (html)
     - retentionTime (number, s)
     - to (number, s)
   - procedure (html)
   - processing (string)
-  - remark (html) 
+  - remarks (html)
   - report (object): a html file that contains an analytical report:
     - filename ̰
   - xml (object):

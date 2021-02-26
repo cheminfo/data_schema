@@ -9,5 +9,5 @@
     - filename
   - misc (object)
   - procedure (html)
-  - remark (html) 
+  - remarks (html)
   - workingElectrode("gold,platinum,glassy carbon")

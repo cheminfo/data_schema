@@ -12,7 +12,7 @@
     - unit (string): g
   - misc (object)
   - procedure (html)
-  - remark (html)
+  - remarks (html)
   - zone (array<object>):
     - from (object):
       - SI (number)

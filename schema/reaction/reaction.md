@@ -4,7 +4,7 @@
   - procedure (html)
   - [products](./products)
   - [reagents](./reagents)
-  - remarks (html)
+  - remarks s (html)
   - title (string)
   - reactionRXN (string): Reaction mol file
   - keywords (array<object>)

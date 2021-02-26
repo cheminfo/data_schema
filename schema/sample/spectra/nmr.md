@@ -46,7 +46,7 @@
       - pubAssignment (string): published assignment (if different from assignment)
       - pubMultiplicity (string): published multiplicity (if different from multiplicity)
       - relability (number, %): Between 0 and 100, used for automatic assignment
-      - remark (HTML)
+      - remarks (HTML)
       - statistics (object): Used when predicting for HOSE code database
         - average (number)
         - max (number)
