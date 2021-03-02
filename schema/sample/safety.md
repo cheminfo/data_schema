@@ -1,11 +1,10 @@
 ghs (object):
-
-- pictogram (array<object>)
+- pictograms (array<object>)
   - code (string)
   - description (string)
-- hStatement (array<object>)
+- hStatements (array<object>)
   - code (string)
   - description (string)
-- pStatement (array<object>)
+- pStatements (array<object>)
   - code (string)
   - description (string)
