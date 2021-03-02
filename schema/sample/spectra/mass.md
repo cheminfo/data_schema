@@ -35,7 +35,7 @@
   - precursor
   - procedure (html)
   - range
-  - remark (html)
+  - remarks (html)
   - report (object): a html file that contains an analytical report:
     - filename ̰
   - xml (object):

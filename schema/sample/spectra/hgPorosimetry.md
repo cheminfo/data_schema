@@ -1,4 +1,4 @@
-- cyclicVoltammetry (array<object>):
+- hgPorosimetry (array<object>):
   - description (html)
   - instrument (object):
     - manufacturer (string)
@@ -8,6 +8,4 @@
   - jcamp (object):
     - filename
   - misc (object)
-  - procedure (html)
   - remarks (html)
-  - workingElectrode("gold,platinum,glassy carbon")

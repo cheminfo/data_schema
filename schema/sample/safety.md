@@ -1,5 +1,4 @@
 ghs (object):
-
 - pictograms (array<object>)
   - code (string)
   - description (string)

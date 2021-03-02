@@ -5,7 +5,6 @@
     - date (int): timestamp, milliseconds elapsed since the Unix Epoch
     - location (string)
     - status (100,200,300,400,500,600,700,800,900,1000): [Explanation of status codes](https://github.com/cheminfo-js/visualizer-helper/blob/master/eln/StockHelper.js):
-      - 1000: Product empty
       - 100: Order to confirm
       - 200: Product to order
       - 300: Product ordered
@@ -15,6 +14,8 @@
       - 700: Product refused
       - 800: Product expired
       - 900: Product lost
+      - 1000: Product empty
     - user (string)
-  - qty (int)
+  - quantity (string)
+  - purity (string)
   - supplier (string)

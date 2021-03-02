@@ -46,7 +46,7 @@
       - pubAssignment (string): published assignment (if different from assignment)
       - pubMultiplicity (string): published multiplicity (if different from multiplicity)
       - relability (number, %): Between 0 and 100, used for automatic assignment
-      - remark (HTML)
+      - remarks (HTML)
       - statistics (object): Used when predicting for HOSE code database
         - average (number)
         - max (number)
@@ -63,6 +63,12 @@
     - filename
   - zone (array<object>): used for 2D NMR
     - integral (number)
+    - x (object):
+      - from (number)
+      - to (number)
+    - y (object):
+      - from (number)
+      - to (number)
     - signal (array<object>):
       - peak (array<object>):
       - x (object):
@@ -71,9 +77,4 @@
       - y (object)
         - delta (number)
         - diaID (array)
-    - x (object):
-      - from (number)
-      - to (number)
-    - y (object):
-      - from (number)
-      - to (number)
+

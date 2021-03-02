@@ -14,5 +14,5 @@
     - kind ("s,m,w"): strong, medium, weak
     - wavelength (number, cm-1): Actually the wavenumber
   - procedure (html)
-  - remark (html)
-  - substrate (string): Element symbol like Ag 
+  - remarks (html)
+  - substrate (string): Element symbol like Ag

@@ -17,6 +17,6 @@
     - kind ("s,m,w"): strong, medium, weak
     - wavelength (number, cm-1): Actually the wavenumber
   - procedure (html)
-  - remark (html)
+  - remarks (html)
   - software
   - solvent (string): For example, if measured in solution between two KBr windows

@@ -30,6 +30,7 @@ It is also the place where changes to the schema are discussed.
     - [differentialCentrifugalSedimentation](./schema/sample/spectra/differentialCentrifugalSedimentation.md)
     - [differentialScanningCalorimetry](./schema/sample/spectra/differentialScanningCalorimetry.md)
     - [elementalAnalysis](./schema/sample/spectra/elementalAnalysis.md)
+    - [hgPorosimetry](./schema/sample/spectra/hgPorosimetry.md)
     - [ir](./schema/sample/spectra/ir.md)
     - [isotherm](./schema/sample/spectra/isotherm.md)
     - [iv](./schema/sample/spectra/iv.md)

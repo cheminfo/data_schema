@@ -4,11 +4,11 @@
     - manufacturer (string)
     - model (string)
     - serialNumber (string)
-     - SI (number): 1
-     - unit (string): cm^2
+    - SI (number): 1
+    - unit (string): cm^2
     - software (string)
   - jcamp (object):
     - filename
   - procedure (html)
-  - remark (html)
+  - remarks (html)
   - surface (object): for example, area of solar cell

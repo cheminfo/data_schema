@@ -9,18 +9,18 @@
     - filename
   - misc (object)
   - procedure (html)
-  - remark (html) 
-  - zone (array<object>): 
-    - endTemperature (object): 
+  - remarks (html)
+  - zone (array<object>):
+    - endTemperature (object):
       - SI (number)
       - unit (string)
-    - endTime (object): 
+    - endTime (object):
       - SI (number)
       - unit (string)
-    - energy (object): 
+    - energy (object):
       - SI (number)
       - unit (string)
-    - startTemperature (object): 
+    - startTemperature (object):
       - SI (number)
       - unit (string)
     - startTime (object):
