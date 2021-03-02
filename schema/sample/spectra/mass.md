@@ -1,4 +1,5 @@
 - mass (array<object>):
+  - chemicalMethodsOntology: 0000470
   - accurate (object):
     - mf (string)
     - modification (string)

@@ -1,4 +1,5 @@
 - cyclicVoltammetry (array<object>):
+  - chemicalMethodsOntology: 0000025
   - description (html)
   - instrument (object):
     - manufacturer (string)

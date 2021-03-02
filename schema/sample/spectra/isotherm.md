@@ -1,4 +1,5 @@
 - isotherm (array<object>):
+  - chemicalMethodsOntology: 0001992
   - description (html)
   - instrument (object):
     - manufacturer (string)

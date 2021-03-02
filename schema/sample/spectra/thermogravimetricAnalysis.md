@@ -1,4 +1,5 @@
 - thermogravimetricAnalysis (array<object>):
+  - chemicalMethodsOntology: 0000690
   - description (html)
   - instrument (object):
     - manufacturer (string)

@@ -1,4 +1,5 @@
 - hgPorosimetry (array<object>):
+  - chemicalMethodsOntology: 0002249
   - description (html)
   - instrument (object):
     - manufacturer (string)

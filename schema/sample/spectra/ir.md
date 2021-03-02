@@ -1,4 +1,5 @@
 - ir (array<object>):
+  - chemicalMethodsOntology: 0000630
   - conditions (string): For example, grinded in KBr
   - description (html)
   - experiment (string): For example, XRD

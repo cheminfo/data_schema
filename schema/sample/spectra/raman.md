@@ -1,4 +1,5 @@
 - raman (array<object>):
+  - chemicalMethodsOnotology: 0000656
   - description (html)
   - excitationWavelength (number, nm)
   - experiment (string)

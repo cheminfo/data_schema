@@ -1,4 +1,5 @@
 - flowCytometry (array<object>):
+  - chemicalMethodsOntology: 0000061
   - description (html)
   - instrument (object):
     - manufacturer (string)
