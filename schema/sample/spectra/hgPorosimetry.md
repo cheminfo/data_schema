@@ -1,0 +1,11 @@
+- hgPorosimetry (array<object>):
+  - description (html)
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - jcamp (object):
+    - filename
+  - misc (object)
+  - remarks (html)
