@@ -41,6 +41,7 @@ It is also the place where changes to the schema are discussed.
     - [uv](./schema/sample/spectra/uv.md)
     - [xps](./schema/sample/spectra/xps.md)
     - [xrd](./schema/sample/spectra/xrd.md)
+    - [xrf](./schema/sample/spectra/xrf.md)
     - [xray](./schema/sample/spectra/xray.md)
 
   - biology

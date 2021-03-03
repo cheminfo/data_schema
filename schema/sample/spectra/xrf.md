@@ -1,0 +1,9 @@
+- xrf (array<object>): x-ray fluorescence spectroscopy
+  - experiment (string)
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - jcamp (object):
+    - filename
