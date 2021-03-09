@@ -13,10 +13,12 @@
   - temperature (number, K)
   - derivedProperties (object)
     - poreProperties:
-      - sourceType (str)
-      - simulationDetails (object):
-        - engine (str): e.g., aiidalab.materialscloud.org
-        - uuid (str): uuid of the data object in the simulation engine
+      - source (object):
+        - type (experiment|simulation|literature)
+        - name (str): e.g., aiidalab.materialscloud.org
+        - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+        - doi (str)
+        - url (str)
       - poreAccessibleVolumeFraction (object):
         - SI (number)
         - unit (string): 1/A^3
