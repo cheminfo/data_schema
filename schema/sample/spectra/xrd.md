@@ -1,9 +1,10 @@
 - xrd (array<object>): Powder x-ray diffraction:
-  - sourceType (experiment|simulation|literature)
-  - sourceDetails (object):
+  - source (object):
+    - type (experiment|simulation|literature)
     - name (str): e.g., aiidalab.materialscloud.org
-    - uuid (str)
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
     - doi (str)
+    - url (str)
   - anode ("CuKa,CuKa2,CuKa1,CuKb1,MoKa,MoKa2,MoKa1,MoKb1,CrKa,CrKa2,CrKa1,CrKb1,FeKa,FeKa2,FeKa1,FeKb1,CoKa,CoKa1,CoKa2,CoKb1,AgKa,AgKa1,AgKa2,AgKb1")
   - environment (string): For example, in vacuo, N2
   - instrument (object):

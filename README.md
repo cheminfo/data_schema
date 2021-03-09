@@ -81,13 +81,15 @@ instrumentObject:
     - serialNumber (string)
 ```
 
-- For spectra, there is also the `sourceType` which can be `experiment`, `simulation` or `literature` and `sourceDetails` can be specified with
+- For spectra, there is also the `source` which can be specified with
 
 ```
-sourceDetails (object):
+source (object):
+    - type (experiment|simulation|literature)
     - name (str): e.g., aiidalab.materialscloud.org
-    - uuid (str)
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
     - doi (str)
+    - url (str)
 ```
 
 - In some cases, there might be derived properties. Those should be grouped under `derivedProperties`
