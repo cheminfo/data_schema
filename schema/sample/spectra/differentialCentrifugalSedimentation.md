@@ -1,4 +1,5 @@
 - differentialCentrifugalSedimentation (array<object>):
+  - chemicalMethodsOntology: 0002015
   - description (html)
   - instrument (object):
     - manufacturer (string)

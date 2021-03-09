@@ -82,3 +82,4 @@ instrumentObject:
 ```
 
 - Any new markdown page must be added to the `README.md` file
+- For analytical techniques, also add a `chemicalMethodsOnotology` entry to concretize what technique the entry refers to

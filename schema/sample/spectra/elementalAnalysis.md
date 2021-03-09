@@ -1,4 +1,5 @@
 - elementalAnalysis
+  - chemicalMethodsOntology: 0001075
   - c (number)
   - h (number)
   - instrument (object):

@@ -1,4 +1,5 @@
 - xps (array<object>): x-ray photoelectron spectroscopy
+  - chemicalMethodsOntology: 0000404
   - experiment (string)
   - instrument (object):
     - manufacturer (string)

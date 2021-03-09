@@ -1,4 +1,5 @@
 - differentialScanningCalorimetry (array<object>):
+  - chemicalMethodsOntology: 0000684
   - description (html)
   - instrument (object):
     - manufacturer (string)

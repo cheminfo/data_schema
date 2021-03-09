@@ -1,4 +1,5 @@
-- mass (array<object>):
+- chromatogram (array<object>):
+  - chemicalMethodsOntology: 0001000
   - analyzer ("ms,ms/ms,uv,fid")
   - cdf (object):
     - filename

@@ -1,4 +1,5 @@
 - iv (array<object>):
+  - chemicalMethodsOntology: 0000004
   - experiment (string)
   - instrument (object):
     - manufacturer (string)

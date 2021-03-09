@@ -1,4 +1,5 @@
 - nmr (array<object>):
+  - chemicalMethodsOntology: 0000591
   - concentration (number, mol/L)
   - date (string): Date and time expressed according to ISO 8601
   - description (html)
@@ -77,4 +78,3 @@
       - y (object)
         - delta (number)
         - diaID (array)
-
