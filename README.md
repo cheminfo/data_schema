@@ -82,3 +82,8 @@ instrumentObject:
 ```
 
 - Any new markdown page must be added to the `README.md` file
+
+### Spectra
+
+Spectra are typically converted into [JCAMP-DX](http://jcamp-dx.org/) files. We store all user metadata using `##$` labels.
+That is, even though there is a global, IUPAC defined, label for `TEMPERATURE` we will store the temperature using a `##$` to keep all metadata consistent.
