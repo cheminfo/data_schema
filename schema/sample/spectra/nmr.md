@@ -1,4 +1,10 @@
 - nmr (array<object>):
+  - source (object):
+    - type (experiment|simulation|literature)
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+    - doi (str)
+    - url (str)
   - concentration (number, mol/L)
   - date (string): Date and time expressed according to ISO 8601
   - description (html)
@@ -77,4 +83,3 @@
       - y (object)
         - delta (number)
         - diaID (array)
-

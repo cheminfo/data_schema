@@ -1,7 +1,27 @@
 - xray (array<object>):
+  - source (object):
+    - type (experiment|simulation|literature)
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+    - doi (str)
+    - url (str)
   - cif (object):
     - filename (string)
   - pdb (object):
     - filename (string)
-  - rscrCode (string): for example, dia
+  - rscrCode (object): for example, dia
   - temperature (number, K)
+  - derivedProperties (object)
+    - poreProperties:
+      - source (object):
+        - type (experiment|simulation|literature)
+        - name (str): e.g., aiidalab.materialscloud.org
+        - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+        - doi (str)
+        - url (str)
+      - poreAccessibleVolumeFraction (object):
+        - SI (number)
+        - unit (string): 1/A^3
+      - specificporeAccessibleVolume (object):
+        - SI (number)
+        - unit (string): cm^3/g

@@ -1,4 +1,10 @@
 - isotherm (array<object>):
+  - source (object):
+    - type (experiment|simulation|literature)
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+    - doi (str)
+    - url (str)
   - description (html)
   - instrument (object):
     - manufacturer (string)
@@ -12,10 +18,16 @@
   - sampleWeight (number, g)
   - temperature (number, K)
   - gas (array<string>): possible values: "CO2,CH4,H2O,H2,N2,Xe,He"
-  - specificPoreVolume (object):
-    - SI (number)
-    - unit (string): cm^3/g
-  - specificSurfaceArea (object):
-    - SI (number)
-    - unit (string): m^2/g
-  - temperature (number, K)
+  - derivedProperties (object)
+    - specificPoreVolume (object):
+      - SI (number)
+      - unit (string): cm^3/g
+    - henryCoefficient (object):
+      - SI (number)
+      - unit (string): mol/kg/Pa
+    - henryCoefficientDev (object):
+      - SI (number)
+      - unit (string): mol/kg/Pa
+    - saturationLoading (object):
+      - SI (number)
+      - unit (string): mol/kg

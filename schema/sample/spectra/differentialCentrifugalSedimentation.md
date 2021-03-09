@@ -1,4 +1,10 @@
 - differentialCentrifugalSedimentation (array<object>):
+  - source (object):
+    - type (experiment|simulation|literature)
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+    - doi (str)
+    - url (str)
   - description (html)
   - instrument (object):
     - manufacturer (string)
