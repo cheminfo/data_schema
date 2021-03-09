@@ -1,4 +1,9 @@
 - uv (array<object>):
+  - sourceType (experiment|simulation|literature)
+  - sourceDetails (object):
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str)
+    - doi (str)
   - conditions
   - description (html)
   - experiment (string)

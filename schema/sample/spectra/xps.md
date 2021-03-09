@@ -1,4 +1,9 @@
 - xps (array<object>): x-ray photoelectron spectroscopy
+  - sourceType (experiment|simulation|literature)
+  - sourceDetails (object):
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str)
+    - doi (str)
   - experiment (string)
   - instrument (object):
     - manufacturer (string)

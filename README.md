@@ -81,4 +81,15 @@ instrumentObject:
     - serialNumber (string)
 ```
 
+- For spectra, there is also the `sourceType` which can be `experiment`, `simulation` or `literature` and `sourceDetails` can be specified with
+
+```
+sourceDetails (object):
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str)
+    - doi (str)
+```
+
+- In some cases, there might be derived properties. Those should be grouped under `derivedProperties`
+
 - Any new markdown page must be added to the `README.md` file

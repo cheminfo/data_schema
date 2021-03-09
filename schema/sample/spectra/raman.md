@@ -1,18 +1,23 @@
 - raman (array<object>):
-  - description (html)
-  - excitationWavelength (number, nm)
-  - experiment (string)
-  - instrument (object):
-    - manufacturer (string)
-    - model (string)
-    - serialNumber (string)
-    - software (string)
-  - jcamp (object)
-  - misc (object)
-  - peak (array<object>):
-    - assignment (string)
-    - kind ("s,m,w"): strong, medium, weak
-    - wavelength (number, cm-1): Actually the wavenumber
-  - procedure (html)
-  - remarks (html)
-  - substrate (string): Element symbol like Ag
+- sourceType (experiment|simulation|literature)
+- sourceDetails (object):
+  - name (str): e.g., aiidalab.materialscloud.org
+  - uuid (str)
+  - doi (str)
+- description (html)
+- excitationWavelength (number, nm)
+- experiment (string)
+- instrument (object):
+  - manufacturer (string)
+  - model (string)
+  - serialNumber (string)
+  - software (string)
+- jcamp (object)
+- misc (object)
+- peak (array<object>):
+  - assignment (string)
+  - kind ("s,m,w"): strong, medium, weak
+  - wavelength (number, cm-1): Actually the wavenumber
+- procedure (html)
+- remarks (html)
+- substrate (string): Element symbol like Ag
