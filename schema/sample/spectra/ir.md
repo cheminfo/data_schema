@@ -21,7 +21,10 @@
   - peak (array<object>):
     - assignment (string)
     - kind ("s,m,w"): strong, medium, weak
-    - wavelength (number, cm-1): Actually the wavenumber
+    - wavenumber (number, cm-1)
+    - absorbance (number)
+    - transmittance (number, in percent)
+    - wavelength (unit)
   - procedure (html)
   - remarks (html)
   - software
