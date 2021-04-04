@@ -38,7 +38,8 @@
       - j (array<object>):
         - coupling (number, Hz)
         - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
-        - distance ()
+        - assignment (array<number>) list of the atoms coupled. This value is related to a molfile
+        - distance (number)
         - multiplicity("d,t,q,p,pent,quint,sext,hex,sept,hept,oct,non"): p = pent = quint, sext = hex, sept=hept
       - kind ("solvent,impurity,reference,standard,P1,P2,P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
       - nbAtoms (int)
@@ -46,12 +47,12 @@
         - width (number, Hz)
         - x (number, ppm): chemical shift
         - y (number): relative height
-      - assignment (string)
+      - assignment (array<number>) list of atoms assigned to this signal. This value is related to a molfile
       - multiplicity (string)
       - delta (number): chemical shift in ppm
       - pubAssignment (string): published assignment (if different from assignment)
       - pubMultiplicity (string): published multiplicity (if different from multiplicity)
-      - relability (number, %): Between 0 and 100, used for automatic assignment
+      - reliability (number, %): Between 0 and 100, used for automatic assignment
       - remarks (HTML)
       - statistics (object): Used when predicting for HOSE code database
         - average (number)
