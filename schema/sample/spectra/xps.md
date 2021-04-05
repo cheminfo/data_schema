@@ -6,6 +6,26 @@
     - doi (str)
     - url (str)
   - experiment (string)
+  - chargeNeutraliser (bool)
+  - workFunction (object):
+    - SI (number)
+    - unit (string)
+  - xrayPower (object):
+    - SI (number)
+    - unit (string)
+  - analysisSource:
+    - label (string): for example, "Al"
+    - strength (object):
+      - SI (number): e.g., 450
+      - unit (str): e.g. "W"
+    - characteristicEnergy (object):
+      - SI (number): e.g., 1486.69
+      - unit (string): e.g., eV
+  - resolution (number): e.g, 160
+  - orbital:
+    - element (str): symbol, e.g., "C"
+    - shell (number): e.g., "2"
+    - angularMomentum (str): e.g., "s", "p"
   - instrument (object):
     - manufacturer (string)
     - model (string)
@@ -15,5 +35,8 @@
     - filename
   - peak (array<object>):
     - be (number, eV): binding energy in eV
-    - fwhm (number, eV)
+    - type (gaussian|lorenzian|voigt)
+    - shapeParameters (object):
+      - gamma (number): γ is the half-width at half-maximum (HWHM) of the Lorentzian profile
+      - alpha (number): when σ is the standard deviation of the Gaussian profile, then α=sqrt(σ2ln2).
     - intensity (number)
