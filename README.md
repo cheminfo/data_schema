@@ -100,3 +100,65 @@ source (object):
 
 Spectra are typically converted into [JCAMP-DX](http://jcamp-dx.org/) files. We store all user metadata using `##$` labels.
 That is, even though there is a global, IUPAC defined, label for `TEMPERATURE` we will store the temperature using a `##$` to keep all metadata consistent.
+
+## package metadata
+
+To be able to automatically curate an overview of all the tools we add standardized metadata to the `package.json` file under the `info` key.
+We use the following keys:
+
+- `logo` (`string`): link to an image, ideally from the [cheminfo/font repository](https://github.com/cheminfo/font)
+- `domain` (`array<string>`): array of "tags" to allow for easy filtering. We currently use "Materials Science", "Physical Chemistry", "Organic Chemistry", "Machine Learning", "Data Processing"
+- `technique` (`object`): we use this to clarify what experimental technique the package is built for. For this, we reference the [Chemical Methods Ontology](https://www.ebi.ac.uk/ols/ontologies/chmo) and the [IUPAC gold book](https://goldbook.iupac.org)
+  - name (string): name of the technique
+  - chmo (string): identifier in the chemical methods ontology
+  - iupac (string): doi link to the entry in the IUPAC gold book
+- functionality (object): We use this to describe the functionality of the package. That is, the file types it can deal with or tags for the analysis techniques it can perform:
+  - fileType (array<object>): For every filetype the library supports, add an entry here
+    - extension (str): extension without dot
+    - manufacturer (str): the maintainer/developer/supplier of the file. For chemical data that usually is an instrument manufacturer
+    - example (str): link to an example of the file so users can compare this with their own file
+- techniques (array<str>): List of analysis/processing techniques the package supports
+
+An example is:
+
+```json
+"version" : "",
+"name": "",
+"description": "",
+"cheminfo": {
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg",
+    "domain": [
+      "Physical Chemistry",
+      "Materials Science"
+    ],
+    "technique": {
+      "name": "TGA",
+      "chmo": "0000690",
+      "iupac": "https://doi.org/10.1351/goldbook.T06324"
+    },
+    "functionality": {
+      "fileTypes": [
+        {
+          "extension": "txt",
+          "manufacturer": "TA Instruments",
+          "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/TAInstruments.txt"
+        },
+        {
+          "extension": "csv",
+          "manufacturer": "Perkin Elmer",
+          "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/perkinElmer.csv"
+        },
+        {
+          "extension": "txt",
+          "manufacturer": "Perkin Elmer",
+          "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/perkinElmer_tga4000.txt"
+        },
+        {
+          "extension": "jcamp",
+          "manufacturer": "cheminfo",
+          "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/ntuples.jdx"
+        }
+      ]
+    }
+  }
+```
