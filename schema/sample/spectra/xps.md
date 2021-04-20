@@ -6,6 +6,7 @@
     - doi (str)
     - url (str)
   - experiment (string)
+  - 
   - instrument (object):
     - manufacturer (string)
     - model (string)

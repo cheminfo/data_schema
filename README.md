@@ -119,13 +119,15 @@ We use the following keys:
     - example (str): link to an example of the file so users can compare this with their own file
 - techniques (array<str>): List of analysis/processing techniques the package supports
 
+If there is a filetype for which multiple extension are used, then use multiple objects (for example, `jdx`, `dx`, `jcamp`).
+
 An example is:
 
 ```json
 "version" : "",
 "name": "",
 "description": "",
-"cheminfo": {
+"info": {
     "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg",
     "domain": [
       "Physical Chemistry",
