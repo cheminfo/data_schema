@@ -49,7 +49,7 @@
     - software (string)
   - jcamp (object):
     - filename
-  - peak (array<object>):
+  - components (array<object>):
     - be (object):
       - SI (number):
       - unit (str): for example, 'eV'
