@@ -5,27 +5,43 @@
     - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
     - doi (str)
     - url (str)
+  - energyType (object): the type of measured energy
+    - kind (kinetic|binding)
+    - unit (str): eV
   - experiment (string)
   - chargeNeutraliser (bool)
   - workFunction (object):
     - SI (number)
     - unit (string)
-  - xrayPower (object):
-    - SI (number)
-    - unit (string)
   - analysisSource:
     - label (string): for example, "Al"
+    - xrayPower (object):
+      SI (number): e.g. 200
+      unit (string): e.g. ‘W’
+    - emission current (object):
+      SI (number): e.g., 15E-3
+      unit (str): e.g. "A"
     - strength (object):
       - SI (number): e.g., 450
       - unit (str): e.g. "W"
     - characteristicEnergy (object):
       - SI (number): e.g., 1486.69
       - unit (string): e.g., eV
-  - resolution (number): e.g, 160
-  - orbital:
-    - element (str): symbol, e.g., "C"
-    - shell (number): e.g., "2"
-    - angularMomentum (str): e.g., "s", "p"
+    - angle (object):
+      - SI (number): e.g., 54.735600
+      - unit (string): e.g., deg
+  - passEnergy (object): resolution
+    - SI (number): e.g. 20
+    - unit (string): e.g. ‘eV’
+  - regions:
+    - name (str): e.g. wide, Auger: Cu LMM, Fermi edge: FE, or an orbital like C 1s
+    - orbital
+      - element (str): symbol, e.g., "C"
+      - shell (number): e.g., "2"
+      - angularMomentum (str): e.g., "s", "p"
+    - auger
+      - element (str): symbol, e.g., "Cu"
+      - transition (str): e.g. LMM (always 3 letters)
   - instrument (object):
     - manufacturer (string)
     - model (string)
@@ -34,7 +50,9 @@
   - jcamp (object):
     - filename
   - peak (array<object>):
-    - be (number, eV): binding energy in eV
+    - be (object):
+      - SI (number):
+      - unit (str): for example, 'eV'
     - type (gaussian|lorenzian|voigt)
     - shapeParameters (object):
       - gamma (number): γ is the half-width at half-maximum (HWHM) of the Lorentzian profile
