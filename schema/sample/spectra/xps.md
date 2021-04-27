@@ -21,9 +21,6 @@
     - emissionCurrent (object):
       SI (number): e.g., 15E-3
       unit (str): e.g. "A"
-    - strength (object):
-      - SI (number): e.g., 450
-      - unit (str): e.g. "W"
     - characteristicEnergy (object):
       - SI (number): e.g., 1486.69
       - unit (string): e.g., eV
