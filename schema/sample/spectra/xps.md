@@ -18,7 +18,7 @@
     - xrayPower (object):
       SI (number): e.g. 200
       unit (string): e.g. ‘W’
-    - emission current (object):
+    - emissionCurrent (object):
       SI (number): e.g., 15E-3
       unit (str): e.g. "A"
     - strength (object):
