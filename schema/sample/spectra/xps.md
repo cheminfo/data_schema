@@ -30,7 +30,7 @@
   - passEnergy (object): resolution
     - SI (number): e.g. 20
     - unit (string): e.g. ‘eV’
-  - regions:
+  - region (object):
     - name (str): e.g. wide, Auger: Cu LMM, Fermi edge: FE, or an orbital like C 1s
     - orbital
       - element (str): symbol, e.g., "C"
