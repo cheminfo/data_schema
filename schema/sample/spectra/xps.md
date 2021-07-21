@@ -50,7 +50,8 @@
     - energy (object):
       - SI (number):
       - units (str): for example, 'eV'
-    - type (gaussian|lorenzian|voigt)
+    - type (la|ga)
+    - area (number)
     - shapeParameters (object):
       - gamma (number): γ is the half-width at half-maximum (HWHM) of the Lorentzian profile
       - alpha (number): when σ is the standard deviation of the Gaussian profile, then α=sqrt(σ2ln2).
