@@ -47,6 +47,7 @@
   - jcamp (object):
     - filename
   - components (array<object>):
+    - name (string)
     - energy (object):
       - SI (number):
       - units (str): for example, 'eV'
