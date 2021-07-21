@@ -7,29 +7,29 @@
     - url (str)
   - energyType (object): the type of measured energy
     - kind (kinetic|binding)
-    - unit (str): eV
+    - units (str): eV
   - experiment (string)
   - chargeNeutraliser (bool)
   - workFunction (object):
     - SI (number)
-    - unit (string)
+    - units (string)
   - analysisSource:
     - label (string): for example, "Al"
     - xrayPower (object):
       SI (number): e.g. 200
-      unit (string): e.g. ‘W’
+      units (string): e.g. ‘W’
     - emissionCurrent (object):
       SI (number): e.g., 15E-3
-      unit (str): e.g. "A"
+      units (str): e.g. "A"
     - characteristicEnergy (object):
       - SI (number): e.g., 1486.69
-      - unit (string): e.g., eV
+      - units (string): e.g., eV
     - angle (object):
       - SI (number): e.g., 54.735600
-      - unit (string): e.g., deg
+      - units (string): e.g., deg
   - passEnergy (object): resolution
     - SI (number): e.g. 20
-    - unit (string): e.g. ‘eV’
+    - units (string): e.g. ‘eV’
   - region (object):
     - name (str): e.g. wide, Auger: Cu LMM, Fermi edge: FE, or an orbital like C 1s
     - orbital
@@ -47,9 +47,9 @@
   - jcamp (object):
     - filename
   - components (array<object>):
-    - be (object):
+    - energy (object):
       - SI (number):
-      - unit (str): for example, 'eV'
+      - units (str): for example, 'eV'
     - type (gaussian|lorenzian|voigt)
     - shapeParameters (object):
       - gamma (number): γ is the half-width at half-maximum (HWHM) of the Lorentzian profile
