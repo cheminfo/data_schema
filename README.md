@@ -35,7 +35,7 @@ It is also the place where changes to the schema are discussed.
     - [isotherm](./schema/sample/spectra/isotherm.md)
     - [iv](./schema/sample/spectra/iv.md)
     - [mass](./schema/sample/spectra/mass.md)
-    - [nmr](./schema/sample/spectra/nrm.md)
+    - [nmr](./schema/sample/spectra/nmr.md)
     - [raman](./schema/sample/spectra/raman.md)
     - [thermogravimetricAnalysis](./schema/sample/spectra/thermogravimetricAnalysis.md)
     - [uv](./schema/sample/spectra/uv.md)
