@@ -1,0 +1,27 @@
+- icp (array<object>):
+  - source (object):
+    - type (experiment|simulation|literature)
+    - name (str): e.g., aiidalab.materialscloud.org
+    - uuid (str): e.g., the UUID of the node of the object in AiiDAlab or the UUID of the data in some other database
+    - doi (str)
+    - url (str)
+  - conditions (string): For example, in solution in 2% HNO3
+  - description (html)
+  - experiment (string): For example, XRD
+  - instrument (object):
+    - manufacturer (string)
+    - model (string)
+    - serialNumber (string)
+    - software (string)
+  - misc (object)
+  - pdf (object):
+    - filename
+  - results (array<object>):
+    - element
+    - wavelength
+    - observedConcentration (in units)
+    - dilution
+    - concentration (in units)
+  - procedure (html)
+  - remarks (html)
+  - software
