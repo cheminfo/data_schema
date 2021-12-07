@@ -19,9 +19,11 @@
   - results (array<object>):
     - element
     - wavelength
-    - observedConcentration (in units)
+    - experimentalConcentration (in units)
     - dilution
-    - concentration (in units)
+      - factor
+      - solvent
+    - sampleConcentration (in units)
   - procedure (html)
   - remarks (html)
   - software
