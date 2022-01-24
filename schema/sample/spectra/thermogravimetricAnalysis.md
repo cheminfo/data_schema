@@ -19,6 +19,7 @@
   - misc (object)
   - procedure (html)
   - remarks (html)
+  - environment (string): For example, in vacuo, N2
   - zone (array<object>):
     - from (object):
       - SI (number)
