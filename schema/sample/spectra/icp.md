@@ -16,7 +16,7 @@
   - misc (object)
   - pdf (object):
     - filename
-  - results (array<object>):
+  - elements (array<object>):
     - element
     - wavelength
     - experimentalConcentration (in units)
