@@ -28,17 +28,17 @@
     - filename (string)
   - probe (string)
   - pulse (string): For example "<zg>"
-  - range (array<object>): Describes the integrated range
+  - ranges (array<object>): Describes the integrated range
     - dimension (int): if this range was assigned from a nD n>1, otherwise this attribute should not exist
     - from (number)
-    - integral (number)
+    - integration (number)
     - pubIntegral (number): published integral
-    - signal (array<object>):
-      - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
-      - j (array<object>):
+    - signals (array<object>):
+      - diaIDs (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
+      - js (array<object>):
         - coupling (number, Hz)
-        - diaID (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
-        - assignment (array<number>) list of the atoms coupled. This value is related to a molfile
+        - diaIDs (array): [Diasterotopic ID](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F45874b6300d148da891252f6263c62ae%2Fview.json&loadversion=true&fillsearch=Diastereotopic+IDs)
+        - atomIDs (array<number>) list of the atoms coupled. This value is related to a molfile
         - distance (number)
         - multiplicity("d,t,q,p,pent,quint,sext,hex,sept,hept,oct,non"): p = pent = quint, sext = hex, sept=hept
       - kind ("solvent,impurity,reference,standard,P1,P2,P3"): By default empty and a real assignment. For integration "solvent", "reference", "impurity" and "standard" do not count.
@@ -47,10 +47,10 @@
         - width (number, Hz)
         - x (number, ppm): chemical shift
         - y (number): relative height
-      - assignment (array<number>) list of atoms assigned to this signal. This value is related to a molfile
+      - atomIDs (array<number>) list of atoms assigned to this signal. This value is related to a molfile
       - multiplicity (string)
       - delta (number): chemical shift in ppm
-      - pubAssignment (string): published assignment (if different from assignment)
+      - pubAssignment (string): published assignment (if different from atomIDs)
       - pubMultiplicity (string): published multiplicity (if different from multiplicity)
       - reliability (number, %): Between 0 and 100, used for automatic assignment
       - remarks (HTML)
